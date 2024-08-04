@@ -38,6 +38,22 @@ img{
     margin-top: 20px;
 }
 
+.blue-color{
+    color: #0C51A7;
+}
+
+.purple-color{
+    color: #591B98;
+}
+
+.red-color{
+    color: #E5245E;
+}
+
+.orange-color{
+    color: #E95E10;
+}
+
 h1{
     font-size: 36px;
     color: #1B1B1B;
@@ -63,10 +79,16 @@ p{
 
 ol > li::marker{
     font-size: 28px;
+}
+
+ol ul{
+    list-style: inside;
+}
+
+ol ul li{
     font-weight: bold;
 }
 
-
-ul{
-    list-style: inside;
+ol ul li::marker{
+    color: #333333;
 }
